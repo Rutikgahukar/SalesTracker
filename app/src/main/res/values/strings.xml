@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Location Tracker</string>
+
+
+    <string name="select_gender">Select Gender</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="important_notes_title">Important Notes</string>
+    <string name="important_notes_content">Please ensure the following settings are configured on your device:</string>
+    <string name="note_1">1. Enable mobile data: To access certain features and services, ensure your mobile data is turned on.</string>
+    <string name="note_2">2. Turn on Location service: Some functionalities require location services. Please enable this feature for better user experience.</string>
+
+
+</resources>

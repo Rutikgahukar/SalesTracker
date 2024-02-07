@@ -1,0 +1,38 @@
+<!-- activity_splash.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#4A61E8">
+
+    <ImageView
+        android:id="@+id/imageLogo"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/loginimg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerCrop"
+        android:rotation="20" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Location Tracking"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/imageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="_Tracking made easy !!"
+        android:textSize="16sp"
+        android:textColor="@android:color/white"
+        android:layout_below="@id/imageLogo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="65dp"/>
+
+</RelativeLayout>

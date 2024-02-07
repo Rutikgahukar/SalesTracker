@@ -1,0 +1,77 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="#3F51B5">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/adminbg">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="350dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/editadmin"
+            android:layout_marginBottom="20dp" />
+
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corners_background"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/add"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Add Sales Executive"
+            android:textColor="@color/white"
+               android:textSize="18sp"
+               android:textStyle="bold"
+              android:background="@drawable/custom_button" />
+
+        <Button
+            android:id="@+id/track"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Track Sales Executive"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button" />
+
+        <TextView
+            android:id="@+id/registeredUsersCount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Registered Users:"
+            android:background="@drawable/custom_button"
+            android:textSize="18sp"
+            android:padding="6dp"
+            android:textStyle="bold"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/adminLogout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Logout"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:background="@drawable/custom_button" />
+    </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
